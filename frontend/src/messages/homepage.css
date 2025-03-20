@@ -1,0 +1,18 @@
+#extra_div {
+  position: relative;
+  top: -5vh;
+  width: 72vw;
+  height: 95.9vh;
+  background-color: rgb(255, 255, 255);
+}
+#logmodel {
+  margin-top: 50px;
+  width: 75vw;
+  height: 70vh;
+}
+#p_homepage {
+  margin-top: 40px;
+  text-align: center;
+  font-size: large;
+  color: rgb(26, 156, 231);
+}

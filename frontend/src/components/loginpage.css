@@ -1,0 +1,76 @@
+#loginpagemain {
+  width: 100vw;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("loginpage.jpg");
+  background-position: left; /* Positioning image on corners */
+  background-size: cover; /* Ensures the image covers the area */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+}
+#secloginpage {
+  position: relative;
+  top: -13vh;
+  right: 20vw;
+  width: 65%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loginformfill {
+  position: absolute;
+  top: 20vh;
+  right: 25vw;
+  width: 15vw;
+  height: 60vh;
+  padding: 5px;
+}
+.loginlbl {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#loginform {
+  width: 15vw;
+  height: 40vh;
+}
+.logininp {
+  padding-right: 3px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.logininp:focus {
+  outline: none;
+}
+#loginbtn {
+  width: 90px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(241, 135, 60);
+  cursor: pointer;
+}
+#loginspan {
+  font-size: larger;
+  position: absolute;
+  top: 69vh;
+  left: 13vw;
+}
+#loginregister {
+  color: rgb(241, 135, 60);
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.logininp:hover {
+  background-color: rgb(252, 232, 218);
+}
+#loginbtn:hover {
+  background-color: rgb(255, 106, 0);
+}

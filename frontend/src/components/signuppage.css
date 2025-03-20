@@ -1,0 +1,93 @@
+#signupmain {
+  width: 100vw;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/cornerpicforsignup.jpg");
+  background-position: left; /* Positioning image on corners */
+  background-size: cover; /* Ensures the image covers the area */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+}
+#secdmainsignup {
+  position: relative;
+  right: 24vw;
+  top: -4vh;
+  width: 83%;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signuppagebox1 {
+  width: 30%;
+  height: 90%;
+}
+#signup3d {
+  width: 25%;
+  padding: 5%;
+  height: 90%;
+}
+.signuplbl {
+  display: inline-block;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.signupinp {
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+.signupinp:focus {
+  outline: none; /* Removes default outline */
+}
+.active {
+  border: 2px solid rgb(18, 179, 18);
+}
+.signupinp:hover {
+  background-color: rgb(215, 255, 215);
+}
+#signuppagebtn {
+  width: 90px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 19px;
+  border: none;
+  right: -3vw;
+  color: white;
+  cursor: pointer;
+
+  background-color: rgb(95, 235, 95);
+}
+#signuppagebtn:hover {
+  background-color: rgb(158, 252, 158);
+  box-shadow: 1px 1px 25px 6px rgb(66, 243, 66);
+  color: black;
+}
+.signupspan {
+  position: absolute;
+}
+#errorbox {
+  top: 19vh;
+  right: 31vw;
+  color: red;
+}
+#signlogin {
+  width: 28vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 73vh;
+  right: 71vw;
+}
+#loginsec {
+  margin-left: 6px;
+  color: rgb(125, 230, 76);
+  cursor: pointer;
+}

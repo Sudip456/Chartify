@@ -1,0 +1,135 @@
+.chat-area {
+  width: 73vw;
+  height: 99.9vh;
+  background-color: rgb(253, 252, 252);
+  display: flex;
+  flex-direction: column;
+}
+#logo-icon {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+i {
+  color: rgb(26, 156, 231);
+  font-size: xx-large;
+  border-radius: 50%;
+  padding: 5px;
+}
+.icons {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  padding: 6px;
+  text-align: center;
+  top: -16vh;
+  margin-right: 55px;
+  left: 45vw;
+  border-radius: 50%;
+}
+
+#activestate {
+  font-size: small;
+}
+
+#more {
+  margin-left: 60px;
+}
+
+i:hover {
+  color: aqua;
+}
+
+#charts {
+  margin-left: 30px;
+  width: 95%;
+  height: 80vh;
+  overflow-x: auto;
+}
+#friend-name {
+  width: 100%;
+  height: 8%;
+  background-color: rgb(240, 236, 236);
+  margin-bottom: 10px;
+}
+#pic-chat {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 20px;
+  background-image: url("/profilepic.jpg");
+  background-size: cover;
+}
+#name {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  top: -6vh;
+  left: 5.5vw;
+  font-size: larger;
+}
+#inp-div {
+  width: 100%;
+  height: 6%;
+  position: relative;
+  bottom: -1vh;
+}
+#msg-send {
+  width: 90px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(127, 204, 204);
+  cursor: pointer;
+}
+#msg-inp {
+  margin-left: 250px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(219, 219, 219);
+  padding: 10px;
+  width: 30vw;
+  font-size: large;
+}
+#msg-inp:hover {
+  background-color: rgb(201, 247, 247);
+}
+#msg-send:hover {
+  background-color: rgb(111, 243, 243);
+}
+
+.my-message {
+  max-width: 250px;
+  width: fit-content;
+  height: auto;
+  padding: 10px;
+  background-color: #c6f4fa;
+  border-radius: 5px;
+  word-wrap: break-word; /* Ensures long words break and wrap onto the next line */
+  white-space: normal;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.friend-message {
+  max-width: 250px;
+  width: fit-content;
+  height: auto;
+  padding: 10px;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+  word-wrap: break-word;
+  white-space: normal;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: auto;
+}

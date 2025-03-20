@@ -1,0 +1,32 @@
+#privacy-policy {
+  width: 100vw;
+  height: 99.9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.privacy-policyh1 {
+  position: relative;
+  margin: 5px;
+  top: -4vh;
+  left: -4vw;
+}
+#privacy-policy-content {
+  position: relative;
+  left: 3vw;
+  top: -1vh;
+  width: 70vw;
+  height: auto;
+}
+.privacy-policy-pmain {
+  position: relative;
+  top: -4vh;
+  left: -4.2vw;
+}
+.privacy-policy-p {
+  position: relative;
+  left: 5vw;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,72 @@
+#landingpagemain {
+  width: 100vw;
+  height: 99.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/landingpage.jpg");
+  background-size: cover; /* Ensures image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+#firstpart {
+  width: 60%;
+  height: 70%;
+  padding: 10px;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#threemodel {
+  width: 30%;
+  height: 70%;
+  border-radius: 20%;
+  background-color: transparent;
+}
+
+#secmainlandingpage {
+  position: relative;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -8vh;
+  right: 14vw;
+}
+#landingpageh1 {
+  text-align: center;
+  color: rgb(69, 253, 207);
+  position: relative;
+  top: -13vh;
+  right: -22vw;
+}
+
+#landingpagep {
+  font-size: x-large;
+}
+
+#landingbtn {
+  margin-left: 8vw;
+  position: absolute;
+  top: 58vh;
+  width: 40vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.landbtn {
+  border-radius: 10px;
+  width: 100px;
+  height: 45px;
+  padding: 5px;
+  background-color: rgb(25, 235, 182);
+  border: none;
+  color: white;
+  font-size: medium;
+}
+.landbtn:hover {
+  background-color: rgb(103, 255, 217);
+}

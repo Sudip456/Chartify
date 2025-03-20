@@ -1,0 +1,79 @@
+.friend-list {
+  width: 28vw;
+  height: 99.9vh;
+  margin-left: 10px;
+  background-color: rgb(242, 245, 245);
+}
+.friend-name {
+  padding: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.friend-name:hover {
+  background-color: rgb(216, 226, 226);
+}
+#friendlisth2 {
+  color: aqua;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+i {
+  color: rgb(26, 156, 231);
+  font-size: xx-large;
+  border-radius: 50%;
+  padding: 5px;
+}
+#setting-icon {
+  position: fixed;
+  display: inline-block;
+  top: 2.8vh;
+  left: 23vw;
+}
+.photo-span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-image: url("/profilepic.jpg");
+  background-size: cover;
+  margin-right: 8px;
+}
+.show-settings {
+  position: fixed;
+  padding: 7px;
+  width: 16vw;
+  height: 22vh;
+  top: 8vh;
+  left: 9vw;
+  z-index: 1;
+  background-color: rgb(225, 238, 247);
+  border-radius: 10px;
+}
+.hide-settings {
+  display: none;
+}
+.setting-options {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 15vw;
+  height: 6vh;
+  margin-top: 5px;
+  text-align: center;
+  padding: 1vh;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+#logout-setting {
+  color: red;
+}
+.setting-options:hover {
+  background-color: rgb(187, 225, 250);
+}
